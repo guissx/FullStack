@@ -1,3 +1,4 @@
+"use client"
 import Image from "next/image";
 import imagem1 from "../public/assets/images/imagem_qualquer.jpg"
 
@@ -15,7 +16,7 @@ export function About() {
                     </div>
 
                     <p className="text-base xs:text-[1.05rem] md:text-lg lg:text-xl text-gray-300 leading-relaxed md:leading-loose font-light mb-6 md:mb-8">
-                        Hello! I'm <span className="font-semibold text-[#FF6B8B]">Gustavo Ferreira Cabral</span>, a full-stack developer specializing in building high-performance digital solutions. With 2+ years of experience, I combine technical expertise with user-centered design to create applications that are both powerful and intuitive.
+                        Hello! I'm <span className="font-semibold text-[#FF6B8B]">Gustavo Ferreira Cabral</span>, a full-stack developer specializing in building digital solutions. With 2+ years of experience, I combine technical expertise with user-centered design to create applications that are both powerful and intuitive.
                     </p>
 
                     {/* Habilidades Técnicas */}
