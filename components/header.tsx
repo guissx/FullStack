@@ -34,7 +34,7 @@ const Header: React.FC = () => {
               </Link>
             </li>
             <li>
-              <Link className="text-[#FFFFFF] hover:text-[#FFFFFF] relative group" href="#Timeline">
+              <Link className="text-[#FFFFFF] hover:text-[#FFFFFF] relative group" href="#projects">
                 Projects
                 <span className="absolute rounded-full bottom-[-1px] left-0 w-0 h-[0.2rem] bg-gradient-to-r from-[#FF3B5C] to-[#FF6B8B] transition-all duration-500 ease-out group-hover:w-full"></span>
               </Link>
