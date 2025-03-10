@@ -15,7 +15,7 @@ export function Footer() {
               Gustavo Ferreira
             </h3>
             <p className="text-gray-400 text-sm">
-              Full Stack Developer passionate about creating innovative solutions and impactful interfaces.
+              Full Stack Developer creating interfaces.
             </p>
           </div>
 
@@ -46,10 +46,10 @@ export function Footer() {
               <a href="https://github.com/guissx" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-[#FF6B8B] transition-colors">
                 <FontAwesomeIcon icon={faGithub} className="h-6 w-6" />
               </a>
-              <a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-[#FF6B8B] transition-colors">
+              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-[#FF6B8B] transition-colors">
                 <FontAwesomeIcon icon={faLinkedin} className="h-6 w-6" />
               </a>
-              <a href="https://instagram.com/yourhandle" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-[#FF6B8B] transition-colors">
+              <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-[#FF6B8B] transition-colors">
                 <FontAwesomeIcon icon={faInstagram} className="h-6 w-6" />
               </a>
             </div>
