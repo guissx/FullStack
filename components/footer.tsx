@@ -23,9 +23,9 @@ export function Footer() {
           <div className="space-y-4">
             <h4 className="text-gray-300 font-semibold">Navigation</h4>
             <ul className="space-y-2">
-              <li><Link href="#about" className="text-gray-400 hover:text-[#FF6B8B] transition-colors text-sm">About Me</Link></li>
-              <li><Link href="#skills" className="text-gray-400 hover:text-[#FF6B8B] transition-colors text-sm">Skills</Link></li>
-              <li><Link href="#projects" className="text-gray-400 hover:text-[#FF6B8B] transition-colors text-sm">Projects</Link></li>
+              <li><Link href="#about" className="text-gray-400 hover:text-[#FF6B8B] transition-colors text-md">About Me</Link></li>
+              <li><Link href="#skills" className="text-gray-400 hover:text-[#FF6B8B] transition-colors text-md">Skills</Link></li>
+              <li><Link href="#projects" className="text-gray-400 hover:text-[#FF6B8B] transition-colors text-md">Projects</Link></li>
             </ul>
           </div>
 
@@ -33,9 +33,9 @@ export function Footer() {
           <div className="space-y-4">
             <h4 className="text-gray-300 font-semibold">Contact</h4>
             <ul className="space-y-2">
-              <li className="text-gray-400 text-sm">contact@gustavo.dev</li>
-              <li className="text-gray-400 text-sm">+55 (71) 91234-5678</li>
-              <li className="text-gray-400 text-sm">Salvador, Brazil</li>
+              <li className="text-gray-400 text-md">contact@gustavo.dev</li>
+              <li className="text-gray-400 text-md">+55 (71) 91234-5678</li>
+              <li className="text-gray-400 text-md">Salvador, Brazil</li>
             </ul>
           </div>
 

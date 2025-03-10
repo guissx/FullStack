@@ -7,9 +7,9 @@ import { Footer } from "@/components/footer";
 export default function Home() {
   return (
     <>
-      <Head>
-        <link rel="icon" href="/assets/images/favicon-16x16.png" />
-      </Head>
+    <Head>
+    <link rel="icon" href="/favicon.ico" /> 
+    </Head>
       <div className="py-[2rem] ">
       <Header />
       <About/>

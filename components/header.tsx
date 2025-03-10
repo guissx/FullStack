@@ -14,8 +14,8 @@ const Header: React.FC = () => {
       <header className="fixed top-0 w-full h-[10rem] z-50 py-4 px-8 bg-neutral-900 flex justify-between items-center">
         <nav className="hidden lg:flex lg:justify-around lg:items-center w-full font-poppins">
           <Link href="/">
-            <h1 className="text-5xl font-black italic bg-gradient-to-r from-[#FF3B5C] to-[#FF6B8B] bg-clip-text text-transparent hover:text-[#FFA7B5] transition-colors duration-300 relative inline-block pb-4">
-              GUIS
+            <h1 className="text-4xl font-black italic bg-gradient-to-r from-[#FF3B5C] to-[#FF6B8B] bg-clip-text text-transparent hover:text-[#FFA7B5] transition-colors duration-300 relative inline-block pb-4">
+              Gustavo Ferreira
               <div className="absolute bottom-0 left-0 w-full flex flex-col gap-1">
               </div>
             </h1>
@@ -49,7 +49,7 @@ const Header: React.FC = () => {
         </nav>
 
         <Link href="/">
-          <h1 className="text-6xl lg:hidden font-black italic bg-gradient-to-r from-[#FF3B5C] to-[#FF6B8B] bg-clip-text text-transparent hover:text-[#FFA7B5] transition-colors duration-300 relative pb-4">
+          <h1 className="text-6xl lg:hidden font-black  bg-gradient-to-r from-[#FF3B5C] to-[#FF6B8B] bg-clip-text text-transparent hover:text-[#FFA7B5] transition-colors duration-300 relative pb-4">
             GUIS
           </h1>
         </Link>
