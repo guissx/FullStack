@@ -22,7 +22,7 @@ export function About() {
 
                     {/* Habilidades Técnicas */}
                     <div className="grid grid-cols-2 xs:grid-cols-3 md:grid-cols-3 gap-2 xs:gap-3 md:gap-4">
-                        {['React', 'TypeScript', 'Node.js', 'Java', 'JavaScript', 'PL/SQL'].map((skill) => (
+                        {['React', 'TypeScript', 'Node.js', 'Java', 'Next-Ts', 'PL/SQL'].map((skill) => (
                             <div
                                 key={skill}
                                 className="px-3 py-1.5 xs:py-2 text-xs xs:text-sm md:text-base bg-neutral-800 rounded-full text-center text-gray-300 

@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Header from "@/components/header";
 import { About } from "@/components/about";
+import { Timeline } from "@/components/timeline";
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
       <div className="py-[4rem] space-y-[4rem]">
       <Header />
       <About />
+      <Timeline/>
       </div>
     </>
   );
