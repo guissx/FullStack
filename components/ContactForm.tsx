@@ -20,7 +20,7 @@ export function ContactForm() {
             
             setMessageStatus({ type: 'success', message: 'Message sent successfully!' });
             (e.target as HTMLFormElement).reset();
-        } catch (_error) { 
+        } catch { 
             setMessageStatus({ type: 'error', message: 'Error sending message. Please try again.' });
         } finally {
             setLoading(false);
