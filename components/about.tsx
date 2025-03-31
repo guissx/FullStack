@@ -39,7 +39,7 @@ export function About() {
                     <div className="absolute inset-0 bg-gradient-to-r from-[#FF3B5C] to-[#FF6B8B] blur-xl opacity-30 group-hover:opacity-50 transition-opacity duration-300" />
                     <div className="relative h-64 md:h-80 lg:h-96 w-full max-w-[500px] mx-auto bg-neutral-800 rounded-2xl flex items-center justify-center overflow-hidden">
                         <Image 
-                            src="/assets/images/imagem_qualquer.jpg" 
+                            src="/assets/images/Ticket.jpg" 
                             alt="Professional Image"
                             width={500}
                             height={500}
@@ -53,7 +53,7 @@ export function About() {
                     <div className="absolute inset-0 bg-gradient-to-r from-[#FF3B5C] to-[#FF6B8B] blur-xl opacity-30 group-hover:opacity-50 transition-opacity duration-300" />
                     <div className="relative h-64 md:h-80 lg:h-96 w-full max-w-[500px] mx-auto bg-neutral-800 rounded-2xl flex items-center justify-center overflow-hidden">
                         <Image 
-                            src="/assets/images/imagem_qualquer.jpg" 
+                            src="/assets/images/Ticket.jpg" 
                             alt="Professional Image"
                             width={500}
                             height={500}

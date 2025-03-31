@@ -6,7 +6,7 @@ import { faGithub, faLinkedin, faInstagram } from "@fortawesome/free-brands-svg-
 
 export function Footer() {
   return (
-    <footer className="w-full bg-neutral-900 border-t border-neutral-800">
+    <footer id="Contact" className="w-full bg-neutral-900 border-t border-neutral-800">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
           {/* Column 1 - About */}
