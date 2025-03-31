@@ -20,12 +20,14 @@ export function ContactForm() {
             
             setMessageStatus({ type: 'success', message: 'Message sent successfully!' });
             (e.target as HTMLFormElement).reset();
-        } catch (error) {
+        } catch (_error) { 
             setMessageStatus({ type: 'error', message: 'Error sending message. Please try again.' });
         } finally {
             setLoading(false);
         }
     };
+
+
 
     return (
         <section id="contact" className="w-full flex items-center justify-center bg-neutral-900 px-4 sm:px-6 py-12 md:py-20">
