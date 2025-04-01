@@ -40,6 +40,15 @@ const timeline = [
         tech: ["HTML", "CSS", "Java-Script"],
         link: "https://ticket-genarator-guissxs-projects.vercel.app/"
       },
+
+      {
+        id: 6,
+        title: "Omni News ",
+        date: "2025",
+        description: "Full Stack Group Project",
+        tech: ["Next-ts", "Tailwind", "Coin Gecko", "FormSpree", "TSParticles"],
+        link: "https://omni-news.vercel.app/"
+      },
   ];
 
 export function Timeline() {
