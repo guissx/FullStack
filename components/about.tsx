@@ -5,7 +5,7 @@ export function About() {
     const skills = ['React', 'TypeScript', 'Node.js', 'Java', 'Next.js', 'PL/SQL', 'Tailwind', 'Express', 'SQL Server'];
 
     return (
-        <section id="about" className="w-full min-h-screen top-5 flex items-center justify-center bg-neutral-950 px-4 sm:px-6 py-12 md:py-20 lg:py-24 relative overflow-hidden">
+        <section id="about" className="w-full min-h-screen top-20 flex items-center justify-center bg-neutral-950 px-4 sm:px-6 py-12 md:py-20 lg:py-24 relative overflow-hidden">
             {/* Background elements */}
             <div className="absolute inset-0 overflow-hidden opacity-10 pointer-events-none">
                 <div className="absolute top-0 left-1/4 w-32 h-32 rounded-full bg-[#FF3B5C] blur-3xl" />
