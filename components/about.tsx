@@ -1,32 +1,41 @@
-"use client"
+"use client";
 import Image from "next/image";
 
 export function About() {
+    const skills = ['React', 'TypeScript', 'Node.js', 'Java', 'Next.js', 'PL/SQL', 'Tailwind', 'Express', 'SQL Server'];
+
     return (
-        <section id="About" className="w-full min-h-screen flex items-center justify-center bg-neutral-900 px-4 sm:px-6 py-12 md:py-20 lg:py-24">
+        <section id="about" className="w-full min-h-screen top-5 flex items-center justify-center bg-neutral-950 px-4 sm:px-6 py-12 md:py-20 lg:py-24 relative overflow-hidden">
+            {/* Background elements */}
+            <div className="absolute inset-0 overflow-hidden opacity-10 pointer-events-none">
+                <div className="absolute top-0 left-1/4 w-32 h-32 rounded-full bg-[#FF3B5C] blur-3xl" />
+                <div className="absolute bottom-0 right-1/4 w-64 h-64 rounded-full bg-[#FF6B8B] blur-3xl" />
+            </div>
+
             <div className="max-w-6xl mx-auto grid lg:grid-cols-2 gap-8 md:gap-12 lg:gap-16 xl:gap-24 items-center">
-                {/* Texto */}
+                {/* Text Content */}
                 <div className="space-y-6 md:space-y-8">
                     <div className="mb-6 md:mb-10">
-                        <h2 className="text-3xl xs:text-4xl sm:text-[2.5rem] md:text-5xl font-bold bg-gradient-to-r from-[#FF3B5C] to-[#FF6B8B] bg-clip-text text-transparent mb-4">
+                        <h2 className="text-4xl sm:text-5xl md:text-6xl font-extrabold bg-gradient-to-r from-[#FF3B5C] to-[#FF6B8B] bg-clip-text text-transparent mb-4">
                             Professional Profile
                         </h2>
                         <div className="h-1 w-24 bg-gradient-to-r from-[#FF3B5C] to-[#FF6B8B] rounded-full" />
                     </div>
 
-                    <p className="text-base xs:text-[1.05rem] md:text-lg lg:text-xl text-gray-300 leading-relaxed md:leading-loose font-light mb-6 md:mb-8">
+                    <p className="text-lg text-gray-400 leading-relaxed md:leading-loose">
                         {"Hello! I'm "}
                         <span className="font-semibold text-[#FF6B8B]">Gustavo Ferreira Cabral</span>
-                        {", a full-stack developer specializing in building digital solutions. With 2+ years of experience, I combine technical expertise with user-centered design to create applications that are both powerful and intuitive."}
+                        {", a full-stack developer with 2+ years of experience building digital solutions. I specialize in creating performant, accessible applications with modern technologies."}
                     </p>
 
-                    {/* Habilidades Técnicas */}
-                    <div className="grid grid-cols-2 xs:grid-cols-3 md:grid-cols-3 gap-2 xs:gap-3 md:gap-4">
-                        {['React', 'TypeScript', 'Node.js', 'Java', 'Next-Ts', 'PL/SQL'].map((skill) => (
+                    {/* Technical Skills */}
+                    <div className="grid grid-cols-2 sm:grid-cols-3 gap-3 md:gap-4">
+                        {skills.map((skill) => (
                             <div
                                 key={skill}
-                                className="px-3 py-1.5 xs:py-2 text-xs xs:text-sm md:text-base bg-neutral-800 rounded-full text-center text-gray-300 
-                                         hover:bg-[#FF3B5C] hover:text-white transition-all duration-300 cursor-default"
+                                className="px-4 py-2 bg-neutral-900 border border-neutral-700 rounded-xl text-center text-gray-300 
+                                         hover:bg-gradient-to-r hover:from-[#FF3B5C]/20 hover:to-[#FF6B8B]/20 hover:border-[#FF3B5C]/30
+                                         transition-all duration-300 cursor-default"
                             >
                                 {skill}
                             </div>
@@ -34,32 +43,24 @@ export function About() {
                     </div>
                 </div>
 
-                {/* Imagem */}
-                <div className="hidden lg:block relative group">
-                    <div className="absolute inset-0 bg-gradient-to-r from-[#FF3B5C] to-[#FF6B8B] blur-xl opacity-30 group-hover:opacity-50 transition-opacity duration-300" />
-                    <div className="relative h-64 md:h-80 lg:h-96 w-full max-w-[500px] mx-auto bg-neutral-800 rounded-2xl flex items-center justify-center overflow-hidden">
+                {/* Image */}
+                <div className="relative group">
+                    <div className="absolute inset-0 bg-gradient-to-r from-[#FF3B5C] to-[#FF6B8B] blur-xl opacity-20 group-hover:opacity-30 transition-opacity duration-500 rounded-3xl" />
+                    <div className="relative h-64 md:h-80 lg:h-96 w-full max-w-[500px] mx-auto bg-neutral-900 border border-neutral-700 rounded-3xl flex items-center justify-center overflow-hidden shadow-xl transition-transform duration-300 group-hover:scale-102">
                         <Image 
-                            src="/assets/images/Ticket.jpg" 
-                            alt="Professional Image"
+                            src="/assets/images/eu.png" 
+                            alt="Gustavo Ferreira Cabral - Full Stack Developer"
                             width={500}
                             height={500}
-                            className="object-cover"
+                            className="object-cover w-full h-full"
                             priority
                         />
-                    </div>
-                </div>
-
-                <div className="lg:hidden relative group">
-                    <div className="absolute inset-0 bg-gradient-to-r from-[#FF3B5C] to-[#FF6B8B] blur-xl opacity-30 group-hover:opacity-50 transition-opacity duration-300" />
-                    <div className="relative h-64 md:h-80 lg:h-96 w-full max-w-[500px] mx-auto bg-neutral-800 rounded-2xl flex items-center justify-center overflow-hidden">
-                        <Image 
-                            src="/assets/images/Ticket.jpg" 
-                            alt="Professional Image"
-                            width={500}
-                            height={500}
-                            className="object-cover"
-                            priority
-                        />
+                        <div className="absolute inset-0 bg-gradient-to-t from-neutral-900/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-6">
+                            <div className="text-white">
+                                <h3 className="text-xl font-bold">Gustavo Ferreira Cabral</h3>
+                                <p className="text-[#FF6B8B]">Full Stack Developer</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

@@ -33,8 +33,8 @@ export function Footer() {
           <div className="space-y-4">
             <h4 className="text-gray-300 font-semibold">Contact</h4>
             <ul className="space-y-2">
-              <li className="text-gray-400 text-md">contact@gustavo.dev</li>
-              <li className="text-gray-400 text-md">+55 (71) 91234-5678</li>
+              <li className="text-gray-400 text-md">gugacabral03@gmail.com</li>
+              <li className="text-gray-400 text-md">+55 (71) 98123-2828</li>
               <li className="text-gray-400 text-md">Salvador, Brazil</li>
             </ul>
           </div>
@@ -46,7 +46,7 @@ export function Footer() {
               <a href="https://github.com/guissx" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-[#FF6B8B] transition-colors">
                 <FontAwesomeIcon icon={faGithub} className="h-6 w-6" />
               </a>
-              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-[#FF6B8B] transition-colors">
+              <a href="https://www.linkedin.com/in/gustavo-ferreira-068aa3272" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-[#FF6B8B] transition-colors">
                 <FontAwesomeIcon icon={faLinkedin} className="h-6 w-6" />
               </a>
               <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-[#FF6B8B] transition-colors">
