@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
 import { Poppins } from "next/font/google";
 import "./globals.css";
-
+import { GoogleAnalytics } from '@next/third-parties/google'
+import { AnalyticsProvider } from '@/components/analytics/AnalyticsProvider'
 // Configuração da Poppins
 const poppins = Poppins({
   subsets: ["latin"],
@@ -24,7 +25,10 @@ export default function RootLayout({
       <body
         className={`${poppins.className} antialiased`} // Use a classe gerada automaticamente
       >
-        {children}
+        <AnalyticsProvider>
+          {children}
+        </AnalyticsProvider>
+        <GoogleAnalytics gaId={process.env.NEXT_PUBLIC_GA_ID!} />
       </body>
     </html>
   );
